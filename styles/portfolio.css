@@ -365,6 +365,39 @@ hr.new1 {
   flex-direction: column;
 }
 
+.footer-title {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.footer-column {
+  width: 50%;
+}
+footer input[type='text'],
+footer input[type='email'],
+footer textarea {
+  font-size: 16px;
+  display: block;
+  height: 64px;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  border: none;
+}
+.secondary-bg {
+  background: #fff8f3;
+}
+
 @media screen and (max-width: 576px) {
   .skill-div-box {
     flex-direction: column;
