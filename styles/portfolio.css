@@ -181,6 +181,7 @@ nav li a {
   display: flex;
   justify-items: center;
   justify-content: center;
+  margin: 0 230px;
 }
 .about-pad {
   background-color: white;
@@ -206,12 +207,6 @@ nav li a {
   line-height: 30px; /* 166.667% */
 }
 
-.skill-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 .icon-skills {
   width: 44px;
   height: 44px;
@@ -246,13 +241,16 @@ nav li a {
 }
 .skill-div-box {
   display: flex;
-  align-items: center;
-  justify-content: center;
+
   gap: 24px;
 }
 .what-i-do {
   padding-top: 100px;
   background: var(--White-Color, #fff);
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 .sum-title {
   color: var(--Dark-01, #181818);
@@ -354,4 +352,25 @@ nav li a {
 }
 hr.new1 {
   border-top: 1px solid red;
+}
+
+.hide {
+  display: none;
+}
+
+.skill-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 576px) {
+  .skill-div-box {
+    flex-direction: column;
+    display: 1.5em;
+  }
+  .sec-skills-des {
+    width: 500px;
+  }
 }
